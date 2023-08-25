@@ -58,3 +58,29 @@ aside{
     border-right: 5px solid #1098ad;
     border-bottom: 5px solid #1098ad;
 }
+
+/* .first-li{
+    font-weight: 800;
+} */
+
+li:first-child{
+    font-weight: 700;
+}
+
+li:nth-child(odd){
+    color:aquamarine;
+}
+
+a:link{
+    color: blueviolet;
+}
+
+/* a:hover{
+    color:chocolate;
+    /* pointer-events: visible; */
+    /* text-decoration: wavy; 
+}*/
+
+a:active{
+    font-style: italic;
+}
